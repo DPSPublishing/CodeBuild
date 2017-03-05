@@ -1,0 +1,16 @@
+{
+  "name": "CodeBuild",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "ci": "./secrets.sh; node .bin/ci.js"
+  },
+  "repository": "git@github.com:DPSPublishing/CodeBuild.git",
+  "author": "Thomas Albrighton <thomasalbrighton@gmail.com>",
+  "devDependencies": {},
+  "dependencies": {
+    "github-build": "^1.0.2",
+    "jest": "^19.0.2"
+  }
+}
